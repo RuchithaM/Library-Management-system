@@ -146,7 +146,7 @@ void add_book()
 		cin>>book.aname;
         fstream myfile;
         myfile.open ("books.txt",ios::app);
-        myfile<<setw(35)<<book.id<<setw(30)<<book.bname<<setw(30)<<book.aname<<endl;
+        myfile<<setw(30)<<book.id<<setw(30)<<book.bname<<setw(30)<<book.aname<<endl;
         myfile.close();
 		}
 		else
